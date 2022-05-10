@@ -1,0 +1,21 @@
+curl 'https://wmtest2.kstore.shop/mbff/perfect' \
+  -H 'Accept: */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9,en;q=0.8' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInppcCI6IkRFRiJ9.eNqEkU9LxDAQxb_LnHtImtaOexO8CB49Fkr-TNawaVLStAjLfnengggq7OQy8H7vvcBcYd0MnEAqiS0qyQMNBF3hJB962bZtP6gG7LbWPFN5ccx6j4KfRDEoNJ0Ux9YhetFbIdoOfvgna_OW6p-Cb_2Zqg7xTioqTu3ZVanMIen4li-U2EKkpRPaP3ozeNUaZ51D8oM1aFAbZIsPZa2v-RyYr2WjBnYdN5q0c-SmlcoeLK2cdR1ZWadCNs8zpUOrNaTzCKcRKGkTaYRmhPoeipuWqKvPZZ72vNwhYkgXrpp1jL_JozDQ8m_VjT9PH8vXGRTKjs9w-wQAAP__.j454R3nt9VUSWjOE-H0BCb00YViop-iXVZdt6vIRs_k' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json; charset=utf-8' \
+  -H 'Origin: http://172.19.6.46:10086' \
+  -H 'Pragma: no-cache' \
+  -H 'Referer: http://172.19.6.46:10086/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: cross-site' \
+  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1' \
+  -H 'distribute-channel: {"channelType":1,"inviteeId":null}' \
+  -H 'terminal: H5' \
+  --data-raw '{"customerId":"ff80808180738b410180744dbf87001e","customerName":"111111","provinceId":0,"cityId":0,"areaId":0,"streetId":0,"customerAddress":null,"contactName":"123","contactPhone":"15651758781","birthDay":null,"gender":2}' \
+  --compressed
+
+
+  {"data":{"extendMap":{},"token":"eyJhbGciOiJIUzI1NiIsInppcCI6IkRFRiJ9.eNqEkTtrxDAQhP_L1i708EN2F0gTSJnSYGRpdREnS0aWTeC4_551IASSwK2ahflmRrA32PYZBuCSK6GkoIEKvC4w8LbhQsi-7yow-1bSgvnFEuucYvS4Yp1Uc83ZudW9Nkw2jIkOfvgnY9Iey5-Cb_0Zi_bhUWpPqYpcBfPiow5v6YqRLKxuZ-VaJzrOmlmjbrG1vXXWMtM2uiaL83krr-niiS95xwoOHXactLVopw3z4Q1ulHUbSdmmjCYtC8ZTK8XHywjDCBj1HHCEaoTy7rOd1qCLS3mZjrQ-IIKPV6padAi_ybPQ4_pv1Z0-jx_r1xmk4g2d4f4JAAD__w.WerP-83Fwdr1ePZE8ggySw21RnH9NiRK0119S-I2b5Y","accountName":"13182832222","customerId":"ff80808180738b410180749ac0350027","checkState":0,"enterpriseCheckState":0,"enterpriseCheckReason":null,"enterpriseInfoVO":null,"customerDetail":{"extendMap":{},"customerDetailId":"ff80808180738b410180749ac0390028","customerVO":null,"customerId":"ff80808180738b410180749ac0350027","customerName":null,"provinceId":null,"cityId":null,"areaId":null,"streetId":null,"customerAddress":null,"delFlag":0,"customerStatus":0,"contactName":null,"contactPhone":null,"employeeId":"2c8080815cd3a74a015cd3ae86850001","createTime":"2022-04-29 17:15:40.000","createPerson":null,"updateTime":null,"updatePerson":null,"deleteTime":null,"deletePerson":null,"rejectReason":null,"forbidReason":null,"isDistributor":0,"birthDay":null,"gender":null,"isEmployee":null},"isLoginFlag":null,"couponResponse":null,"inviteCode":"","newFlag":true,"enterpriseRegisterState":null}}

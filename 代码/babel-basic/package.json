@@ -1,0 +1,29 @@
+{
+  "name": "babel-basic",
+  "version": "1.0.0",
+  "description": "babel-basic项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "author": "zhou",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/generator": "^7.17.9",
+    "@babel/helper-module-imports": "^7.16.7",
+    "@babel/helper-plugin-utils": "^7.16.7",
+    "@babel/plugin-transform-arrow-functions": "^7.16.7",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/template": "^7.16.7",
+    "@babel/types": "^7.17.0"
+  },
+  "dependencies": {
+    "babel-plugin-jsx": "^1.2.0",
+    "core-js": "3"
+  }
+}
