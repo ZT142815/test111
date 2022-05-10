@@ -1,0 +1,121 @@
+.ant-layout {
+  width: 100%;
+  height: 100%;
+  .ant-layout-content {
+    padding: 24px;
+    position: relative;
+  }
+  .task-body {
+    width: 100%;
+    height: 100%;
+    background-color: #1f1f1f;
+    .header {
+      width: 100%;
+      height: 240px;
+      padding: 24px;
+      .header-container {
+        width: 100%;
+        height: 60%;
+        background-color: #141414;
+        padding: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .header-item {
+          width: 80%;
+          height: 50%;
+          display: flex;
+          align-items: center;
+          .item {
+            width: 84px;
+            height: 60px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            margin: 0 12px;
+            font-weight: bold;
+            .item-titel {
+              font-size: 12px;
+            }
+            .item-num {
+              font-size: 20px;
+              color: #177ddc;
+            }
+            .item-num-red {
+              font-size: 20px;
+              color: #e84749;
+            }
+          }
+        }
+        .add-task-btn {
+          margin-right: 24px;
+        }
+      }
+      .select-module {
+        height: 40%;
+        background-color: #141414;
+        display: flex;
+        align-items: center;
+        padding: 0 24px;
+      }
+    }
+  }
+  .add-task {
+    box-sizing: border-box;
+    height: 100%;
+    background-color: #1f1f1f;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 24px;
+    border-top-left-radius: 24px;
+    box-shadow: 28px 28px 28px 28px black;
+    transition: 0.2s;
+    .add-modal-header {
+      height: 48px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      border-bottom: 2px solid #434343;
+      font-size: 18px;
+      overflow: hidden;
+      margin: 0 12px;
+      .anticon-close {
+        width: 24px;
+        height: 24px;
+        svg {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    .add-modal-body {
+      width: 100%;
+      height: calc(100% - 48px);
+      padding: 36px 36px 12px 12px;
+      .ant-form-item-control-input-content {
+        display: flex;
+      }
+      .confirmBtn {
+        flex: 1;
+        margin-right: 12px;
+      }
+    }
+  }
+  .close-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50vh;
+    left: 0;
+    width: 16px;
+    height: 60px;
+    background-color: #141414;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+  }
+}
